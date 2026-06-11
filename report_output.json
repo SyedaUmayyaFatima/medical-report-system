@@ -1,0 +1,47 @@
+{
+  "findings": [
+    {
+      "claim": "No acute cardiopulmonary process identified",
+      "image_region": "entire chest",
+      "confidence": 0.9,
+      "evidence": "No visible signs of acute infiltrates, pneumothorax, or pleural effusion",
+      "grounded": true
+    },
+    {
+      "claim": "Mild cardiomegaly",
+      "image_region": "cardiac silhouette",
+      "confidence": 0.8,
+      "evidence": "Cardiac silhouette appears slightly enlarged relative to thoracic cavity",
+      "grounded": true
+    }
+  ],
+  "refused_claims": [
+    {
+      "attempted_claim": "Presence of pleural effusion",
+      "reason": "No blunting of costophrenic angles or fluid levels observed"
+    },
+    {
+      "attempted_claim": "Acute pulmonary infiltrates",
+      "reason": "No areas of increased opacity or consolidation visible"
+    }
+  ],
+  "overall_impression": "No acute cardiopulmonary process identified. Mild cardiomegaly is present.",
+  "limitations": "Cannot determine subtle interstitial changes or small nodules due to image resolution.",
+  "validated_findings": [
+    {
+      "claim": "No acute cardiopulmonary process identified",
+      "image_region": "entire chest",
+      "confidence": 0.9,
+      "evidence": "No visible signs of acute infiltrates, pneumothorax, or pleural effusion",
+      "grounded": true
+    },
+    {
+      "claim": "Mild cardiomegaly",
+      "image_region": "cardiac silhouette",
+      "confidence": 0.8,
+      "evidence": "Cardiac silhouette appears slightly enlarged relative to thoracic cavity",
+      "grounded": true
+    }
+  ],
+  "hallucination_rate": 0.5
+}
